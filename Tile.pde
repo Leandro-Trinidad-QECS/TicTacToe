@@ -1,6 +1,6 @@
 class Tile {
   float x,y;
-  int value = (int) random(-2,2); // 1 for X; 0 for O
+  int value = -1; // 1 for X; 0 for O
   int id; // eache tile gets an id 1-9
   int w = 100;
   Tile() {
